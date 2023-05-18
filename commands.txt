@@ -1,0 +1,32 @@
+// Perceptron
+python dataClassifier.py -c perceptron 
+python dataClassifier.py -d faces -c perceptron
+python dataClassifier.py -c perceptron -w  
+python calculations.py perceptron perceptron_results.txt 5 
+
+//nb
+python dataClassifier.py  
+python dataClassifier.py -d digits -c nb
+python dataClassifier.py -d faces -c nb
+python dataClassifier.py -d faces -c nb -k 1
+python calculations.py nb nb_results.txt 5 
+
+
+//Mira
+python dataClassifier.py -c mira
+python dataClassifier.py -d faces -c mira
+python dataClassifier.py -d digits -c mira
+python calculations.py mira mira_results.txt 5 
+
+python dataClassifier.py -h  
+
+
+ // FOR TA TESTING
+python dataClassifier.py -c nb -d digits -s 1
+python dataClassifier.py -c nb -d faces -s 1
+
+python dataClassifier.py -c perceptron -d digits -s 1
+python dataClassifier.py -c perceptron -d faces -s 1
+
+python dataClassifier.py -c mira -d digits -s 1
+python dataClassifier.py -c mira -d faces -s 1
